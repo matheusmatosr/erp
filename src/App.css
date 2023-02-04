@@ -1,0 +1,300 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+  background-color: bisque;
+}
+.sidebar{
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: lightskyblue;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
+}
+.tittle{
+  position: relative;
+  color:#000;
+  padding-left: 200px;
+  margin-top: 10px;
+  width: 900px;
+  height: 50px;
+  font-size: 25px;
+}
+.secondTittle{
+  color: rgb(106, 106, 4);
+  width: 450px;
+  height: 15px;
+  margin-top: 80PX;
+  margin-left: 100PX;
+  text-align:justify;
+}
+.terceiroTittle{
+  color: rgb(106, 106, 4);
+  width: 450px;
+  height: 15px;
+  margin-top: 200PX;
+  margin-left: 100PX;
+  text-align: justify;
+}
+.detalheFinal{
+  color: black;
+  width: 200px;
+  height: 10px;
+  margin-left: 550px;
+  margin-top: 290px;
+}
+.imgMaterial{
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  width: 450px;
+  height: 450px;
+  margin-left: 520px;
+  padding-top: 40px;
+}
+.contato{
+  background-color: teal;
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 90px;
+  margin-top: 25px;
+}
+.tituloContato{
+  margin-left: 390px;
+  margin-top: 0px;
+  font-size: 30px;
+}
+.formContato{
+  margin-left: 420px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  width: 400px;
+  height: 485px;
+  background-color: burlywood;
+}
+.inputName{
+  outline: none;
+  padding: 16px;
+  border-radius: 5px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  border: none;
+}
+.inputEndereco{
+  outline: none;
+  width: 350px;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  border: none;
+}
+.inputTelefone{
+  outline: none;
+  padding: 16px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  border: none;
+}
+.inputEmail{
+  outline: none;
+  width: 350px;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f0f2f5;
+  border: none;
+}
+.buttonContato{
+  width: 150px;
+  height: 35px;
+  background-color: rgb(26, 110, 110);
+  color: #fff;
+  border-color: crimson;
+  margin-left: 119px;
+  margin-top: 12px;
+}
+.nomeContato{
+  margin-bottom: 150px;  
+  font-size: 20px;
+}
+.emailContato{
+  font-size: 20px;
+}
+.enderecoContato{
+  font-size: 20px;
+}
+.telefoneContato{
+  font-size: 20px;
+}
+.detalheFinalContato{
+  margin-left: 550px;
+  margin-top: 56px;
+  margin-bottom: 0px;
+}
+.alert{
+  margin-left: 10px;
+  width: 350px;
+  height: 42px;
+  margin-top: -60px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0%;
+}
+.alertHelp{
+  margin-left: 10px;
+  width: 350px;
+  height: 42px;
+  margin-top: -60px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0%;
+}
+.alertSobre{
+  margin-left: 0px;
+  width: 350px;
+  height: 42px;
+  margin-top: -60px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0%;
+}
+.tituloProdutos{
+  margin-top: 0px;
+  margin-left: 510px;
+  font-size: 50px;
+}
+.produtos{
+  margin-top: 8px;
+  margin-left: 170px;
+  font-size: 45px;
+  background-color: rgb(253, 239, 213);
+}
+.subtitle{
+  color: red;
+}
+.caminho{
+  padding-bottom: 0px;
+}
+.tabelaProdutos{
+  width: 100%;
+  height: 400px;
+}
+.tituloTabela{
+  margin-top: 0px;
+  margin-left: 415px;
+  font-size: 50px;
+}
+.tituloAuxiliarTabela{
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.detalheFinalLista{
+  margin-left: 550px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+}
+.box{
+  margin-top: 0px;
+}
+.tituloAjuda{
+  margin-top: 0px;
+  margin-left: 225px;
+  font-size: 50px;
+}
+.subtituloAjuda{
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+.boxAjuda{
+  margin-left: 300px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.botaoSugestao{
+  width: 15px;
+  margin-left: 300px;
+  margin-top: 0;
+}
+
+.formAjuda{
+  width: 550px;
+  margin-top: 0px;
+  margin-left: 400px;
+}
+.detalheFinalAjuda{
+  margin-left: 550px;
+  margin-top: 80px;
+}
+.areaBtn{
+  margin-top: 10px;
+  display: flex;
+  margin-left: 685px;
+}
+.botao{
+  width: 150px;
+  background-color: rgb(152, 154, 246);
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 5px;
+}
